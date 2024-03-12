@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "Submitted at the US-RSE'24 conference"
+authors:
+  - "Barkamian Analytics"
+title: "Diamonds Explorer"
+url: https://github.com/quarto-dev/quarto-web/blob/1948aafd244008352cc864da2504d81574e2aae9/docs/interactive/shiny/_examples/diamonds/shiny-diamonds.qmd
