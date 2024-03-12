@@ -5,6 +5,6 @@ on:
 
 jobs:
   check-submission:  # `check-submission` is the job-id and can be chosen arbitrarily
-    uses: USRSE/notebooks-submissions/.github/workflows/check-submission.yml@v1
+    uses: USRSE/notebooks-submissions/.github/workflows/check-submission.yml@main
     with:
       notebook: diamonds.qmd
