@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+set -o pipefail
+
+# for this repository, quarto is not needed to render the notebook, but it's used in the `start` script to execute it non-interactively
+wget --quiet --output-document=- https://raw.githubusercontent.com/USRSE/notebooks-submissions/main/scripts/install-quarto.sh | bash -s
