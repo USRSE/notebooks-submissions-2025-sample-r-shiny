@@ -1,6 +1,6 @@
 #!/bin/bash
 
-nb_to_test="diamond.ipynb"
+nb_to_test="diamonds.qmd"
 # use quarto render --execute to run the notebook as a way of testing it before the default server is started
 quarto render "$nb_to_test" --execute --to html -M self-contained:true || { echo "Error running notebook $nb_to_test"; exit 1; }
 
